@@ -77,7 +77,7 @@
         <!--Play Sounds View Controller-->
         <scene sceneID="bFw-bN-3Ve">
             <objects>
-                <viewController id="6wN-pi-4EK" customClass="PlaySoundsViewController" sceneMemberID="viewController">
+                <viewController id="6wN-pi-4EK" customClass="PlaySoundsViewController" customModule="Picthperfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UEg-sb-vXn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,6 +135,9 @@
                                     <constraint firstAttribute="height" constant="64" id="kHm-aB-Wdv"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Stop"/>
+                                <connections>
+                                    <action selector="stopSound:" destination="6wN-pi-4EK" eventType="touchUpInside" id="37d-wV-kdG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

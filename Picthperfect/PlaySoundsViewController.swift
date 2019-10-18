@@ -14,9 +14,14 @@ class PlaySoundsViewController: UIViewController {
     var audioRecorded : URL!
 
     override func viewDidLoad() {
+          print("in playing page")
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+    }
+    
+    
+    @IBAction func stopSound(_ sender: Any) {
+         print("stop Sound")
     }
     
 
